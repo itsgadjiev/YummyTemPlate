@@ -1,0 +1,111 @@
+#delicious-food{
+    padding-top: 40px;
+    background-color: #e2e2e2;
+    padding-bottom: 40px;
+}
+.delicious-food-info{
+    justify-content: center;
+}
+.delicious-food-wrapper{
+    justify-content: space-between;
+}
+.delicious-food-info h2{
+    font-size: 64px;
+    font-weight: 700;
+}
+.delicious-food-info p{
+    color: #4f4f5a;
+    font-weight: 400;
+    margin-bottom: 30px;
+    width: 70%;
+    line-height: 25px;
+}
+.delicious-food-image img{
+    width: 526px;
+    height: 526px;
+}
+.food-section-btn{
+    width: 23%;
+    margin-right: 20px;
+}
+
+.fa-circle-play span{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (min-width: 600px) and (max-width: 1438px){
+
+    .col-6{
+        width: 100%;
+    }
+    .delicious-food-image{
+        order: -1;
+    }
+
+    .delicious-food-image img{
+        width: 100%;
+        height: 100%;
+    }
+    .delicious-food-info{
+        text-align: center;
+    }
+    .delicious-food-info p{
+        width: 95%;
+        padding-top: 15px;
+    }
+    .food-buttons-section{
+        width: 100%;
+        margin-right: 20px;
+    }
+    .food-section-btn{
+        width: 30%;
+    }
+    .delicious-food-info h2{
+        width: 100%;
+        font-size: 60px;
+        
+    }
+    .delicious-food-info h2:first-child{
+        width: 100%;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px){
+    .col-6{
+        width: 100%;
+    }
+    .delicious-food-image{
+        order: -1;
+    }
+
+    .delicious-food-image img{
+        width: 100%;
+        height: 100%;
+    }
+    .delicious-food-info{
+        text-align: center;
+    }
+    .delicious-food-info p{
+        width: 100%;
+        padding-top: 15px;
+    }
+    .food-buttons-section{
+        width: 100%;
+        margin-right: 20px;
+    }
+    .food-section-btn{
+        width: 50%;
+    }
+    .delicious-food-info h2{
+        width: 100%;
+        font-size: 35px;
+        
+    }
+    .delicious-food-info h2:first-child{
+        width: 100%;
+        font-size: 35px;
+        padding-top: 20px;
+    }
+}

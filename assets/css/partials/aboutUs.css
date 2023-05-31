@@ -1,0 +1,158 @@
+#about-us{
+    padding-bottom:140px;
+}
+.about-us-head-section{
+    text-align: center;
+    padding-top: 100px;
+}
+.about-us-head-section h2{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.book-a-table-photo{
+    background-image: url(../../images/about.jpg);
+    height: 700px;
+}
+.about-us-info-wrapper{
+    position: relative;
+}
+
+.book-a-table-info{
+    position: absolute;
+    background-color:white;
+    height: 100px;
+    width: 40%;
+    top: 75%;
+    text-align: center;
+}
+.book-a-table-info h6{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.book-a-table-info span{
+    font-size: 28px;
+    font-weight: 700;
+    color: #CE1212;
+}
+
+.book-a-table-clip{
+    background-image: url(../../images/about-2.jpg);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 48px;
+    
+}
+.more-information-about-us-wrapper p:first-child{
+    padding-bottom: 15px;
+    font-style: italic;
+}
+.more-information-about-us-wrapper ul li{
+    font-style: italic;
+    padding-top: 10px;
+    
+}
+.more-information-about-us-wrapper ul{
+    list-style: none;
+    padding-top: 20px;
+}
+.play-button-about-us{
+  
+    color: #CE1212;
+    font-size: 70px;
+    font-weight: 900;
+   
+    
+}
+
+.play-button-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.book-a-table-clip{
+    align-items: flex-end;
+}
+
+.text-indetails{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.more-information-about-us{
+    justify-content: space-between;
+}
+.text-indetails{
+    font-size: 18px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1438px){
+    .col-7{
+        width: 100%;
+    }
+    .book-a-table-info{
+        height: 100px;
+        width: 90%;
+        top: 35%;
+   
+    }
+    .col-5{
+        width: 100%;
+    }
+    .more-information-about-us .container{
+        width: 100%;
+    }
+    .more-information-about-us-wrapper{
+        margin-top: 30px;
+    }
+    .more-information-about-us-wrapper ul li{
+        font-size: 20px;
+    }
+    .book-a-table-clip{
+        height: 600px;
+    }
+
+}
+@media screen and (min-width: 320px) and (max-width: 599px){
+    .col-7{
+        width: 100%;
+    }
+    .book-a-table-info{
+        height: 100px;
+        width: 90%;
+        top: 23%;
+    }
+    .col-5{
+        width: 100%;
+    }
+    .more-information-about-us .container{
+        width: 100%;
+    }
+    .more-information-about-us-wrapper{
+        margin-top: 30px;
+    }
+    .more-information-about-us-wrapper ul li{
+        font-size: 20px;
+    }
+    
+    .book-a-table-clip{
+        height: 400px;
+        background-size: none;  
+    }
+    .book-a-table-photo{
+        background-size: none;  
+        height: 450px;  
+    }
+    .container-none{
+        width: 100%;
+    }
+    .container-active{
+         width: 90%;
+    }
+       
+}

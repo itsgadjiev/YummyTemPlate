@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h2{
+    font-family: AmaticRegular;
+    font-weight:100;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.col12{
+    width: 100%;
+}
+
+.col-6 {
+    width: 48%;
+    /* padding: 10px; */
+}
+.col-7{
+    width: 57%;
+}
+.col-5{
+    width: 40%;
+}
+
+.col-4{
+    width: 32%;
+    /* padding: 10px; */
+}
+
+.col-2{
+    width: 16.66%;
+}
+
+.col-10{
+    width: 83.33%;
+}
+
+.col-8{
+    width: 66.66%;
+}
+
+.col-3{
+    width: 25%;
+}
+
+.d-flex{
+    display: flex;
+}
+.col-9{
+    width: 75%;
+}
+
+.container-90 {
+    width: 90%;
+    margin: 0 auto;
+}
+.container-70{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.classic-btn{
+    font-size: 14px;
+    color: #fff;
+    background-color: #CE1212;
+    padding: 8px 20px;
+    border-radius: 50px;
+    transition: 0.3s;
+    border-color: #CE1212;
+    cursor: pointer;
+}
+
+.classic-btn:hover{
+    background-color: #ce1212cd;
+}
+.red-span{
+    color: #CE1212;
+}
+.btn{
+    cursor: pointer;
+}
+
+

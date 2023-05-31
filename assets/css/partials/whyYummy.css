@@ -1,0 +1,123 @@
+#why-yummy{
+    background-color: #e2e2e2;;
+    padding-bottom:140px;
+    padding-top:140px;
+
+}
+.yummy-info{
+    background-color: #CE1212;;
+    height: 400px;
+}
+
+.yummy-info .container h5 {
+    font-weight: 700;
+    font-size: 34px;
+    width: 70%;
+    padding-bottom: 20px;
+    color: #fff;
+    padding-top: 25px;
+
+}
+.yummy-info .container p{
+    color: #fff;
+    font-size: 20px;
+}
+.yummy-info-wrapper{
+    align-items: center;
+}
+.why-yummy-btn{
+    padding-top: 15px;
+    text-align: center;
+
+}
+.why-yummy-btn button{
+    width: 146px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.3);
+    border: #fff;
+    color: #fff;
+    border-radius: 50px;
+    
+}
+.yummy-cards-wrapper{
+    padding-top: 24px;
+    justify-content: space-around;
+}
+.yummy-info-card{
+    height: 340px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 95%;
+    margin-left: 10px;
+}
+.yummy-info-card .container {
+    height: 100%;
+}
+.yummy-info-card-inner{
+    justify-content: space-around;
+    height: 100%;
+}
+.yummy-info-card-icon{
+    font-size: 50px;
+    color: brown;
+}
+.yummy-info-card h5{
+    font-size: 20px;
+    font-weight: 400;
+}
+.yummy-info-card p{
+    font-size: 17px;
+    color: #6c757d;
+}
+@media screen and (min-width: 600px) and (max-width: 1438px){
+    .yummy-wrapper .row .col-4{
+    width: 100%;
+    }
+    .yummy-info{
+        height: 300px;
+    }
+    .why-yummy-btn{
+        margin-top: 10px;
+    }
+    .yummy-wrapper .row .col-8{
+        width: 100%;
+    }
+    .yummy-info-card
+    {
+        width: 100%;
+        margin-left: 0px;
+        height: 200px;
+        margin-top: 10px;
+    }
+
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 599px){
+    .yummy-wrapper .row .col-4{
+        width: 100%;
+        }
+        .yummy-info{
+            height: 450px;
+        }
+        .why-yummy-btn{
+            margin-top: 10px;
+        }
+        .yummy-wrapper .row .col-8{
+            width: 100%;
+        }
+        .yummy-info-card
+        {
+            width: 100%;
+            margin-left: 0px;
+            height: 230px;
+            margin-top: 10px;
+        }
+    
+}
+
+
+
+
+
+
