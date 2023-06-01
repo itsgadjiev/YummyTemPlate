@@ -91,15 +91,14 @@
     font-size: 18px;
 }
 
-@media screen and (min-width: 600px) and (max-width: 1438px){
+@media screen and (min-width: 600px) and (max-width: 1000px){
     .col-7{
         width: 100%;
     }
     .book-a-table-info{
         height: 100px;
-        width: 90%;
+        width: 70%;
         top: 35%;
-   
     }
     .col-5{
         width: 100%;
@@ -116,6 +115,10 @@
     .book-a-table-clip{
         height: 600px;
     }
+    .container-none{
+        width: 100%;
+    }
+
 
 }
 @media screen and (min-width: 280px) and (max-width: 599px){
@@ -125,7 +128,7 @@
     .book-a-table-info{
         height: 100px;
         width: 90%;
-        top: 23%;
+        top: 20%;
     }
     .col-5{
         width: 100%;

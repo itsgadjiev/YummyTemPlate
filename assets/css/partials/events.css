@@ -1,0 +1,70 @@
+#events{
+    padding-bottom: 140px;
+    padding-top: 80px;
+
+}
+.events-head-section{
+    text-align: center;
+}
+.events-head-section h2{
+    margin-bottom: 30px;
+}
+
+.party-card{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/events-3.jpg);
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    position: relative;
+   
+}
+
+
+#events .row{
+    justify-content: space-between;
+}
+
+
+.party-card-info{
+    background-color:rgba(255, 255, 255, 0);
+    z-index: 1;
+    position: absolute;
+    bottom: 5%;
+    color: white;
+}
+
+.party-card-info-inner h5{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+
+}
+
+.party-card-info-inner span{
+    color: #fff;
+    border-bottom: 2px solid #CE1212;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px){
+    .res-card{
+        display: none;
+    }
+
+    #events .col-4{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width: 280px) and (max-width: 599px){
+    .res-card{
+        display: none;
+    }
+
+    #events .col-4{
+        width: 100%;
+    }
+}

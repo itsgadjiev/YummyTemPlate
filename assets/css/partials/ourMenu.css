@@ -94,8 +94,8 @@
     color: #CE1212;
 }
 
-@media screen and (min-width: 600px) and (max-width: 1438px){
-    .col-sm-12{
+@media screen and (min-width: 600px) and (max-width: 1000px){
+    #our-menu .container-70 .col-sm-12{
     width: 100%;
     }
     .yummy-menu-card{

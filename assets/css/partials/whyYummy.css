@@ -69,7 +69,7 @@
     font-size: 17px;
     color: #6c757d;
 }
-@media screen and (min-width: 600px) and (max-width: 1438px){
+@media screen and (min-width: 600px) and (max-width: 1000px){
     .yummy-wrapper .row .col-4{
     width: 100%;
     }
@@ -89,6 +89,10 @@
         height: 200px;
         margin-top: 10px;
     }
+    #why-yummy .container-70{
+        width: 90%;
+    } 
+   
 
     
 }
@@ -113,6 +117,7 @@
             height: 230px;
             margin-top: 10px;
         }
+        
     
 }
 
