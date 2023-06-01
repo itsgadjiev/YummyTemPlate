@@ -97,4 +97,15 @@ h2{
     cursor: pointer;
 }
 
+.section-name{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #7f7f90;
+    text-transform: uppercase;
+}
+.grey-span{
+    font-size: 48px;
+    font-weight: 400;
+}
 

@@ -1,6 +1,6 @@
 #our-menu{
     padding-top: 100px;
-    padding-bottom: 130px;
+    padding-bottom: 50px;
 }
 .our-menu-head-section{
     text-align: center;
@@ -68,7 +68,8 @@
 }
 
 .yummy-menu-card{
-    height: 500px;
+    height: 100%;
+    padding-top: 30px;
 }
 
 .yummy-menu-card{
@@ -91,4 +92,28 @@
     font-size: 24px;
     font-weight: 700;
     color: #CE1212;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1438px){
+    .col-sm-12{
+    width: 100%;
+    }
+    .yummy-menu-card{
+        height: 100%;
+        padding-top: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 280px) and (max-width: 599px){
+    .col-sm-12{
+        width: 100%;
+    }
+    .yummy-menu-card{
+        height: 350px;
+    }
+
+    .yummy-menu-card{
+        height: 100%;
+    }
 }

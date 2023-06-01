@@ -67,7 +67,7 @@ header{
     .burger{
         display: block;
     }
-    .container-70{
+    .navbar .container-70{
         width: 90%;
     }
 
@@ -82,7 +82,7 @@ header{
     .res-nav{
         display: none;
     }
-    .col-2{
+    .nav-wrapper .col-2{
         width: 50%;
     }
     .burger{
