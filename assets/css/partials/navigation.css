@@ -1,9 +1,17 @@
 #navigation{
     
+    background-color: white;
     align-items: center;
-    height: 80px;
+    height: 80px; 
+    
 
 }
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
 .nav-items ul{
     list-style: none;
     justify-content: space-around;
@@ -70,7 +78,7 @@
 
 
 }
-@media screen and (min-width: 320px) and (max-width: 599px){
+@media screen and (min-width: 280px) and (max-width: 599px){
     .res-nav{
         display: none;
     }

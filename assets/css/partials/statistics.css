@@ -1,0 +1,48 @@
+#statistics{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/stats-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stat-col {
+    text-align: center;
+    width: 100%;
+   
+}
+.stat-col-wrapper{
+    width: 100%;
+}
+
+.statistics-wrapper{
+    justify-content: space-around;
+}
+.stat-col h3{
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.stat-col span{
+    
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1438px){
+    .statistics-wrapper .col-3{
+        width: 50%;
+        padding-top: 80px;
+    }
+}
+
+@media screen and (min-width: 280px) and (max-width: 599px){
+    .statistics-wrapper .col-3{
+        width: 100%;
+        padding-top: 80px;
+    }
+}

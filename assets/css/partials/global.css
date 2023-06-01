@@ -24,7 +24,7 @@ h2{
     flex-wrap: wrap;
     flex-direction: column;
 }
-.col12{
+.col-12{
     width: 100%;
 }
 
@@ -40,7 +40,7 @@ h2{
 }
 
 .col-4{
-    width: 32%;
+    width: 33%;
     /* padding: 10px; */
 }
 

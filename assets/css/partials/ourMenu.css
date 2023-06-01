@@ -1,0 +1,94 @@
+#our-menu{
+    padding-top: 100px;
+    padding-bottom: 130px;
+}
+.our-menu-head-section{
+    text-align: center;
+}
+
+.our-menu-head-section h6{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #7f7f90;
+    text-transform: uppercase;
+}
+.menu-options-section{
+    padding-top: 35px;
+}
+.our-menu-head-section h2{
+    font-size: 48px;
+    font-weight: 400;
+}
+.menu-options-section .row{
+    justify-content: center;
+}
+
+.menu-options-section .row li{
+    list-style: none;
+    padding-left: 13px;
+}
+
+.menu-options-section .row a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;
+    color: rgb(85, 85, 85);
+    border-bottom: 2px solid #7f7f90;
+}
+.menu-options-section .row a:hover{
+    border-bottom: 2px solid red;
+    color: black;
+}
+
+.menu-starters{
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+.menu-starters h6{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #676775;
+    margin-bottom: 0;
+}
+.menu-starters span{
+    font-size: 36px;
+    color: #CE1212;
+  
+    font-weight: 600;
+
+}
+
+.yummy-menu-card-image img{
+    width: 100%;
+    padding: 0 60px;
+}
+
+.yummy-menu-card{
+    height: 500px;
+}
+
+.yummy-menu-card{
+    text-align: center;
+    
+}
+
+.yummy-menu-card h3{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.yummy-menu-card-desc{
+    
+    color: #8d8d9b;
+    margin-bottom: 5px;
+}
+.yummy-menu-card-price{
+    font-size: 24px;
+    font-weight: 700;
+    color: #CE1212;
+}
